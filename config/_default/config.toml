@@ -1,0 +1,14 @@
+baseURL = 'https://iskolahack.hu/'
+title = 'IskolaHACK'
+defaultContentLanguage = "hu"
+
+[params]
+logo = "logo.png"
+
+[markup.goldmark.renderer]
+unsafe = true 
+
+[module]
+	[[module.imports]]
+	path = "github.com/gergovari/deathrattle"
+

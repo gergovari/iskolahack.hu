@@ -1,0 +1,20 @@
+[[start]]
+	name = "Discord"
+	weight = 10
+	url = "https://discord.gg/CSagRWu5t6"
+
+[[start]]
+	name = "Blog"
+	weight = 20
+	url = "https://blog.varigergo.hu"
+
+[[start]]
+	name = "Közösségi média"
+	id = "content"
+	weight = 30
+[[start]]
+	name = "Instagram"
+	url = "https://www.youtube.com/@gergovari"
+	weight = 10
+	parent = "Közösségi média"
+
