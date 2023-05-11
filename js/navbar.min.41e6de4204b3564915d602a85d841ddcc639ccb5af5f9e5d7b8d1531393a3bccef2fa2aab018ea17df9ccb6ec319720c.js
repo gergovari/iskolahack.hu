@@ -1,0 +1,1 @@
+const toggleBurger=()=>{let e=document.getElementById("burger"),t=document.getElementById("navbar");e.classList.toggle("is-active"),t.classList.toggle("is-active")};document.getElementById("burger").onclick=toggleBurger

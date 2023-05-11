@@ -1,0 +1,1 @@
+.color0 .navbar-item:hover{color:var(--color1-text)}.color0 .navbar-item:hover .navbar-link::after{border-color:var(--color1-text)}.color0 .navbar-item:hover .navbar-dropdown{color:var(--color0-text)}.navbar-item img{max-height:100%}
