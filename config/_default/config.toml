@@ -2,6 +2,8 @@ baseURL = 'https://iskolahack.hu/'
 title = 'IskolaHACK'
 defaultContentLanguage = "hu"
 
+timeout = 3000000
+
 [params]
 logo = "logo.png"
 
@@ -12,3 +14,5 @@ unsafe = true
 	[[module.imports]]
 	path = "github.com/gergovari/deathrattle"
 
+	[[module.imports]]
+	path = "github.com/vyberd/gallery"

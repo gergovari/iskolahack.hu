@@ -1,1 +1,13 @@
-HUGO_MODULE_REPLACEMENTS="github.com/vyberd/blog->../../vyberd/blog,github.com/vyberd/funnels->../../vyberd/funnels,github.com/vyberd/checkout->../../vyberd/checkout,github.com/vyberd/base->../../vyberd/base,github.com/vyberd/navbar->../../vyberd/navbar,github.com/vyberd/animation->../../vyberd/animation,github.com/vyberd/input->../../vyberd/input,github.com/vyberd/tracking->../../vyberd/tracking,github.com/vyberd/popup->../../vyberd/popup,github.com/vyberd/stylesheet->../../vyberd/stylesheet,github.com/vyberd/vyberpunk->../../vyberpunk,github.com/vyberd/questionnaires->../../vyberd/questionnaires,github.com/gergovari/varigergo-shared->../../shared,github.com/gergovari/deathrattle->../../deathrattle,github.com/gergovari/blog-content->../../blog,github.com/vyberd/gallery->../../vyberd/gallery" hugo server --appendPort=false --baseUrl="localhost"
+#!/bin/bash
+export HUGO_MODULE_REPLACEMENTS=""
+pushd ../vyberd/
+	ls
+	for dir in *; do
+		export HUGO_MODULE_REPLACEMENTS="${HUGO_MODULE_REPLACEMENTS},github.com/vyberd/${dir}->../../vyberd/${dir}"
+	done
+popd
+export HUGO_MODULE_REPLACEMENTS="${HUGO_MODULE_REPLACEMENTS:1}"
+
+export HUGO_MODULE_REPLACEMENTS="${HUGO_MODULE_REPLACEMENTS},github.com/gergovari/deathrattle->../../deathrattle"
+
+hugo server --appendPort=false --baseUrl="localhost"

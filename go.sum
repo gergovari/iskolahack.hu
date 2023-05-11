@@ -1,2 +1,6 @@
 github.com/gergovari/deathrattle v0.0.0-20230508142746-b3d76a3a1c63 h1:aRqsg9Htj3C5Zd/bWjRLCnSKuAtrbcK5n1FWw5fFAeU=
 github.com/gergovari/deathrattle v0.0.0-20230508142746-b3d76a3a1c63/go.mod h1:1osRxz6diQ3KG3yNuNc9UVwGR1/pTyhGfqCCQ+a7d9U=
+github.com/gergovari/deathrattle v0.0.0-20230511174607-d77039b552f8 h1:BnxBHiYwd0h2mnh67O61Oni2Vh9UGcyrmkiJzbLDSY0=
+github.com/gergovari/deathrattle v0.0.0-20230511174607-d77039b552f8/go.mod h1:RWwpgtwAdTui8RFVCuwTi1zsv2ZJPm3JZi2bU1H5DZk=
+github.com/vyberd/gallery v0.0.0-20230511174405-c76a45aeca83 h1:Q6VivTVGtxyzOZP/hAoRIIiLylDIop5G5ophszDFFGs=
+github.com/vyberd/gallery v0.0.0-20230511174405-c76a45aeca83/go.mod h1:98w/tuJvgS1YKmf3Dcy9EGp3uSr7QLjpeWh+vMF94aA=
