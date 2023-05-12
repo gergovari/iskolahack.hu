@@ -2,16 +2,13 @@
 title: "Kezdőlap"
 description: "VÉGE a tradicionális oktatásnak... Ebben a közösségben minden létező új (és régi) eszközt felhasználunk arra hogy a magyar oktatási rendszeren minél gyorsabban végigjussunk."
 ---
-{{< section class="no-padding" >}}
-    <div id="leaves" class="div-img">
-        {{< img name="suitp.png" class="fg" nolazy=true width="1000rem" class="bottom" >}}
-        <div class="abs-centered">
-            <h1>ELEGÜNK VAN!</h1>
+{{< section class="no-padding is-flex is-justify-content-center is-align-items-center" >}}
+    <div id="leaves" class="div-img is-full-width is-flex-direction-column is-flex">
+		<br />
+	    <h1>ELEGÜNK VAN!</h1>
             <p>Nem működik az oktatási rendszer...</p>
             <p>...ezért <b>a szabályokon kívül</b> kell mozognunk.</p>
-        </div>
-        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+	{{< img name="suitp.png" class="bottom abnormal-img centered me-img" nolazy=true >}}
         <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
         <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
     </div>
@@ -49,11 +46,11 @@ description: "VÉGE a tradicionális oktatásnak... Ebben a közösségben minde
     {{< /columns >}}
 {{< /section >}}
 
-{{< section >}}
+{{< section class="little-padding" >}}
     <h1>Társaid véleménye.</h1>
 	{{< swiper >}}
 		{{< slide >}}
-			{{< section color=0 >}}
+			{{< section color=0 class="review-card" >}}
 				{{< columns vcentered=true >}}
 					{{< column size="is-one-fifth" >}}
 						{{< img name="pfp2.jpg" >}}
@@ -68,7 +65,7 @@ description: "VÉGE a tradicionális oktatásnak... Ebben a közösségben minde
 			{{< /section >}}
 		{{< /slide >}}
 		{{< slide >}}
-			{{< section color=0 >}}
+			{{< section color=0 class="review-card" >}}
 				{{< columns vcentered=true >}}
 					{{< column size="is-one-fifth" >}}
 						{{< img name="pfp3.jpg" >}}
@@ -83,7 +80,7 @@ description: "VÉGE a tradicionális oktatásnak... Ebben a közösségben minde
 			{{< /section >}}
 		{{< /slide >}}
 		{{< slide >}}
-			{{< section color=0 >}}
+			{{< section color=0 class="review-card" >}}
 				{{< columns vcentered=true >}}
 					{{< column size="is-one-fifth" >}}
 						{{< img name="pfp1.jpg" >}}
@@ -96,7 +93,7 @@ description: "VÉGE a tradicionális oktatásnak... Ebben a közösségben minde
 			{{< /section >}}
 		{{< /slide >}}
 		{{< slide >}}
-			{{< section color=0 >}}
+			{{< section color=0 class="review-card" >}}
 				{{< columns vcentered=true >}}
 					{{< column size="is-one-fifth" >}}
 						{{< img name="pfp4.jpg" >}}
@@ -112,7 +109,7 @@ description: "VÉGE a tradicionális oktatásnak... Ebben a közösségben minde
 			{{< /section >}}
 		{{< /slide >}}
 		{{< slide >}}
-			{{< section color=0 >}}
+			{{< section color=0 class="review-card" >}}
 				{{< columns vcentered=true >}}
 					{{< column size="is-one-fifth" >}}
 						{{< img name="pfp0.jpg" >}}
