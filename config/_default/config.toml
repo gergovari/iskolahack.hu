@@ -19,3 +19,7 @@ unsafe = true
 
 [params.mautic]
 url = "https://mautic.varigergo.hu"
+
+[params.matomo]
+url = "https://matomo.varigergo.hu"
+id = 3

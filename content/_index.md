@@ -40,7 +40,8 @@ description: "VÉGE a tradicionális oktatásnak... Ebben a közösségben minde
         {{< column >}}
             {{< input/form >}}
                 {{< input/text required=True placeholder="E-mail...">}}
-                {{< input/button >}}Feliratkozás{{< /input/button >}}
+		<br/>
+                {{< input/button class="is-primary" >}}Feliratkozás{{< /input/button >}}
             {{< /input/form >}}
         {{< /column >}}
     {{< /columns >}}
