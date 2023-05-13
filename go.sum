@@ -10,3 +10,5 @@ github.com/vyberd/gallery v0.0.0-20230512111403-a99b40b757e5 h1:LVN2fDNpYn/gPm1/
 github.com/vyberd/gallery v0.0.0-20230512111403-a99b40b757e5/go.mod h1:98w/tuJvgS1YKmf3Dcy9EGp3uSr7QLjpeWh+vMF94aA=
 github.com/vyberd/tracking v0.0.0-20230508142508-df817e537ed9 h1:dexFuY3rG1ngs3qtp/3IJImFkdzY1Zfi4KsyB4MaC2k=
 github.com/vyberd/tracking v0.0.0-20230508142508-df817e537ed9/go.mod h1:FEGIYUlkQtmWlRvBOHufAY5k/keLMfXSGCBoH17vTZs=
+github.com/vyberd/tracking v0.0.0-20230513063924-2de497d3c4c8 h1:qqvEtmey61IdFH6VSxErveZ9808i10zae/dTvMfRJNc=
+github.com/vyberd/tracking v0.0.0-20230513063924-2de497d3c4c8/go.mod h1:FVmWQVYPZRQJXsZCajDNzQxQurE2y1jYUhaSacvI9PM=
