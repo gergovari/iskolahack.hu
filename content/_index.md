@@ -38,8 +38,8 @@ description: "VÉGE a tradicionális oktatásnak... Ebben a közösségben minde
 		<p>Egyáltalán felkészített már az iskolád a mesterséges intelligenciákra?...</p>
         {{< /column >}}
         {{< column >}}
-            {{< input/form >}}
-                {{< input/text required=True placeholder="E-mail...">}}
+            {{< input/form 7 >}}
+                {{< input/text id="email" required=True placeholder="E-mail...">}}
 		<br/>
                 {{< input/button class="is-primary" >}}Feliratkozás{{< /input/button >}}
             {{< /input/form >}}
