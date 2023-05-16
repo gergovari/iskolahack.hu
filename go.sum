@@ -10,6 +10,8 @@ github.com/gergovari/deathrattle v0.0.0-20230515093926-f7607875bec3 h1:p+KspF2nd
 github.com/gergovari/deathrattle v0.0.0-20230515093926-f7607875bec3/go.mod h1:56I2ELicpbPRl4+YU2ZC8nlbYc3nvgiMMhq3SvMDQvU=
 github.com/gergovari/deathrattle v0.0.0-20230516082514-33b3b393d341 h1:Z2DOyBtl0Vll0ZUdzLo8LhO7Ub4AafX4CjfyEYh7mPQ=
 github.com/gergovari/deathrattle v0.0.0-20230516082514-33b3b393d341/go.mod h1:Zolfhc8aDK84m+rP9nXYdwu/3FBXBO4Qx9Rov9kwRoM=
+github.com/gergovari/deathrattle v0.0.0-20230516083005-f125ec5842f2 h1:HD4S/L7LcE5iRQBQNSA/q5xapo2xC2lY6J2p26dQ1WE=
+github.com/gergovari/deathrattle v0.0.0-20230516083005-f125ec5842f2/go.mod h1:0TX1x27C/tBTELZkE8pwpVGQ5pzuGd5vnx6Os2IBWh8=
 github.com/vyberd/gallery v0.0.0-20230512111403-a99b40b757e5 h1:LVN2fDNpYn/gPm1/hS0SpnN4frUIsUOgqQQM3kQgTzQ=
 github.com/vyberd/gallery v0.0.0-20230512111403-a99b40b757e5/go.mod h1:98w/tuJvgS1YKmf3Dcy9EGp3uSr7QLjpeWh+vMF94aA=
 github.com/vyberd/tracking v0.0.0-20230508142508-df817e537ed9 h1:dexFuY3rG1ngs3qtp/3IJImFkdzY1Zfi4KsyB4MaC2k=
