@@ -125,7 +125,40 @@ description: "VÉGE a tradicionális oktatásnak... Ebben a közösségben minde
 	{{< /swiper >}}
 {{< /section >}}
 
+{{< section color=1 >}}
+    <h1>Exkluzív hozzáférés segédeszközökhöz.</h1>
+    {{< columns vcentered=True >}}
+        {{< column >}}
+		Eleged van hogy a tanárok nem tehetik meg azt hogy csak odaadnak egy vázlatot és MUSZÁJ nekik 45 percig kihúzni a mondandójukat?<br />Van egy alkalmazásunk, ami mesterséges intelligenciával jegyzetel HELYETTED!
+        {{< /column >}}
+        {{< column >}}
+		Úgy érzed nincsenek veled rokonlelkek az iskolában? Nem szereted a naplopást?<br />Discord szerverünkön biztos találsz magadnak társat.
+        {{< /column >}}
+        {{< column >}}
+		Eleged van a repetetív házi feladatokból vagy csak képtelen vagy megtalálni a megfelelő segítséget? Tervezünk egy alkalmazást, ami tud segíteni az anyag megértésében vagy ha sietős a dolgod, a megoldások kitalálásában.
+        {{< /column >}}
+    {{< /columns >}}
+{{< /section >}}
+
 {{< section color=0 >}}
+    <h1>Ameddig nincs változás...</h1>
+    {{< columns vcentered=True >}}
+        {{< column >}}
+		Csatlakozz vadonatúj (Discord) közösségünkhöz ahol minden létező új (és régi) eszközt felhasználunk arra hogy a magyar oktatási rendszeren <i>minél gyorsabban végigjussunk</i>. Most limitált ideig <b>{{< highlight >}}INGYENESEN{{< /highlight >}}</b>. 
+
+		<p>Egyáltalán felkészített már az iskolád a mesterséges intelligenciákra?...</p>
+        {{< /column >}}
+        {{< column >}}
+            {{< input/form 7 >}}
+                {{< input/text id="email" required=True placeholder="E-mail...">}}
+		<br/>
+                {{< input/button class="is-primary" >}}Feliratkozás{{< /input/button >}}
+            {{< /input/form >}}
+        {{< /column >}}
+    {{< /columns >}}
+{{< /section >}}
+
+{{< section color=1 >}}
     <h1>A rendszer nem a legjobbat akarja neked.</h1>
     {{< columns >}}
         {{< column >}}
